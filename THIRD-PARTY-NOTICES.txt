@@ -1,0 +1,4 @@
+Third-party component: H2 Database Engine, version 2.3.232
+Artifact: com.h2database:h2:2.3.232 (unmodified upstream binary JAR in lib/)
+License: Mozilla Public License 2.0 (MPL-2.0) or Eclipse Public License 1.0 (EPL-1.0).
+H2 is separately maintained upstream software; consult its license and source materials before modifying or redistributing it.

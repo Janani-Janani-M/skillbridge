@@ -1,0 +1,3 @@
+# Database setup
+
+Install Java 17 or later and extract the full ZIP into a writable folder. Set `SB_ADMIN_PASSWORD` before first startup, then run `sh run.sh` (macOS/Linux) or `run.bat` (Windows). Visit `http://127.0.0.1:8080`; sample credentials are in root `README.md`. The file-backed H2 database lives in generated `data/`; back it up while the server is stopped. The included `CREATE TABLE IF NOT EXISTS` DDL is a fresh demo initializer, not a versioned production migration system. See [`DATABASE.md`](DATABASE.md) for relations, constraints and example SQL.
